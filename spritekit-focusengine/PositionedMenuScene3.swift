@@ -62,6 +62,7 @@ class PositionedMenuScene3: SKScene {
     }
     
     override func didUpdateFocus(in context: UIFocusUpdateContext, with coordinator: UIFocusAnimationCoordinator) {
+        print("scene.didUpdateFocus")
         let prevItem = context.previouslyFocusedItem
         let nextItem = context.nextFocusedItem
         
@@ -74,6 +75,7 @@ class PositionedMenuScene3: SKScene {
     }
     
     override var preferredFocusEnvironments: [UIFocusEnvironment] {
+        print("scene.preferredfocusenvironments")
         return buttons.map { $0.shadowButton! as UIFocusEnvironment }.reversed()
     }
 

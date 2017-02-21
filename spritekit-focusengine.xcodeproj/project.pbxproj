@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		BAAA98121D7333B3002DA4B1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAAA98111D7333B3002DA4B1 /* AppDelegate.swift */; };
-		BAAA981C1D7333B3002DA4B1 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAAA981B1D7333B3002DA4B1 /* GameViewController.swift */; };
+		BAAA981C1D7333B3002DA4B1 /* GameViewControllerSK.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAAA981B1D7333B3002DA4B1 /* GameViewControllerSK.swift */; };
 		BAAA981F1D7333B3002DA4B1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BAAA981D1D7333B3002DA4B1 /* Main.storyboard */; };
 		BAAA98211D7333B3002DA4B1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BAAA98201D7333B3002DA4B1 /* Assets.xcassets */; };
 		BAAA98291D7333DF002DA4B1 /* SimpleMenuButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAAA98281D7333DF002DA4B1 /* SimpleMenuButton.swift */; };
@@ -22,12 +22,27 @@
 		BAAA983C1D73561B002DA4B1 /* ShadowMenuButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAAA983B1D73561B002DA4B1 /* ShadowMenuButton.swift */; };
 		BAAA983E1D735791002DA4B1 /* PositionedMenuScene3.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAAA983D1D735791002DA4B1 /* PositionedMenuScene3.swift */; };
 		BAAA98451D7374E4002DA4B1 /* SelectableMenuScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAAA98441D7374E4002DA4B1 /* SelectableMenuScene.swift */; };
+		D0E59B761E5C3C7F00B646F5 /* PositionedMenuButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAAA98391D7354B2002DA4B1 /* PositionedMenuButton.swift */; };
+		D0E59B771E5C3C7F00B646F5 /* DiagonalMenuScene1.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAAA982D1D7347F7002DA4B1 /* DiagonalMenuScene1.swift */; };
+		D0E59B781E5C3C7F00B646F5 /* DiagonalMenuScene2.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAAA98321D734B4F002DA4B1 /* DiagonalMenuScene2.swift */; };
+		D0E59B791E5C3C7F00B646F5 /* SimpleMenuButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAAA98281D7333DF002DA4B1 /* SimpleMenuButton.swift */; };
+		D0E59B7A1E5C3C7F00B646F5 /* SimpleMenuScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAAA982A1D73358D002DA4B1 /* SimpleMenuScene.swift */; };
+		D0E59B7B1E5C3C7F00B646F5 /* PositionedMenuScene3.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAAA983D1D735791002DA4B1 /* PositionedMenuScene3.swift */; };
+		D0E59B7C1E5C3C7F00B646F5 /* DiagonalMenuButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAAA98301D734B04002DA4B1 /* DiagonalMenuButton.swift */; };
+		D0E59B7D1E5C3C7F00B646F5 /* PositionedMenuScene1.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAAA98351D735043002DA4B1 /* PositionedMenuScene1.swift */; };
+		D0E59B7E1E5C3C7F00B646F5 /* GameViewControllerSCN.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0E59B721E5C3C4500B646F5 /* GameViewControllerSCN.swift */; };
+		D0E59B801E5C3C7F00B646F5 /* ShadowMenuButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAAA983B1D73561B002DA4B1 /* ShadowMenuButton.swift */; };
+		D0E59B811E5C3C7F00B646F5 /* PositionedMenuScene2.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAAA98371D7352D3002DA4B1 /* PositionedMenuScene2.swift */; };
+		D0E59B821E5C3C7F00B646F5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAAA98111D7333B3002DA4B1 /* AppDelegate.swift */; };
+		D0E59B831E5C3C7F00B646F5 /* SelectableMenuScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAAA98441D7374E4002DA4B1 /* SelectableMenuScene.swift */; };
+		D0E59B871E5C3C7F00B646F5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BAAA98201D7333B3002DA4B1 /* Assets.xcassets */; };
+		D0E59B901E5C3CD800B646F5 /* MainSCN.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D0E59B8D1E5C3CBC00B646F5 /* MainSCN.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		BAAA980E1D7333B3002DA4B1 /* spritekit-focusengine.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "spritekit-focusengine.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BAAA98111D7333B3002DA4B1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		BAAA981B1D7333B3002DA4B1 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		BAAA981B1D7333B3002DA4B1 /* GameViewControllerSK.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewControllerSK.swift; sourceTree = "<group>"; };
 		BAAA981E1D7333B3002DA4B1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		BAAA98201D7333B3002DA4B1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BAAA98221D7333B3002DA4B1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -42,10 +57,21 @@
 		BAAA983B1D73561B002DA4B1 /* ShadowMenuButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShadowMenuButton.swift; sourceTree = "<group>"; };
 		BAAA983D1D735791002DA4B1 /* PositionedMenuScene3.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PositionedMenuScene3.swift; sourceTree = "<group>"; };
 		BAAA98441D7374E4002DA4B1 /* SelectableMenuScene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SelectableMenuScene.swift; sourceTree = "<group>"; };
+		D0E59B721E5C3C4500B646F5 /* GameViewControllerSCN.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameViewControllerSCN.swift; sourceTree = "<group>"; };
+		D0E59B8B1E5C3C7F00B646F5 /* scenekit-focusengine.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "scenekit-focusengine.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D0E59B8C1E5C3C7F00B646F5 /* spritekit-focusengine copy-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "spritekit-focusengine copy-Info.plist"; path = "/Users/peter/Documents/Programming/spritekit-focusengine/spritekit-focusengine copy-Info.plist"; sourceTree = "<absolute>"; };
+		D0E59B8E1E5C3CBC00B646F5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/MainSCN.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		BAAA980B1D7333B3002DA4B1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D0E59B841E5C3C7F00B646F5 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -60,6 +86,7 @@
 			children = (
 				BAAA98101D7333B3002DA4B1 /* spritekit-focusengine */,
 				BAAA980F1D7333B3002DA4B1 /* Products */,
+				D0E59B8C1E5C3C7F00B646F5 /* spritekit-focusengine copy-Info.plist */,
 			);
 			sourceTree = "<group>";
 		};
@@ -67,6 +94,7 @@
 			isa = PBXGroup;
 			children = (
 				BAAA980E1D7333B3002DA4B1 /* spritekit-focusengine.app */,
+				D0E59B8B1E5C3C7F00B646F5 /* scenekit-focusengine.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -79,8 +107,10 @@
 				BAAA982F1D734825002DA4B1 /* DiagonalMenu */,
 				BAAA98341D735021002DA4B1 /* PositionedMenu */,
 				BAAA98481D737916002DA4B1 /* SelectableMenu */,
-				BAAA981B1D7333B3002DA4B1 /* GameViewController.swift */,
+				BAAA981B1D7333B3002DA4B1 /* GameViewControllerSK.swift */,
+				D0E59B721E5C3C4500B646F5 /* GameViewControllerSCN.swift */,
 				BAAA981D1D7333B3002DA4B1 /* Main.storyboard */,
+				D0E59B8D1E5C3CBC00B646F5 /* MainSCN.storyboard */,
 				BAAA98201D7333B3002DA4B1 /* Assets.xcassets */,
 				BAAA98221D7333B3002DA4B1 /* Info.plist */,
 			);
@@ -146,6 +176,23 @@
 			productReference = BAAA980E1D7333B3002DA4B1 /* spritekit-focusengine.app */;
 			productType = "com.apple.product-type.application";
 		};
+		D0E59B741E5C3C7F00B646F5 /* scenekit-focusengine */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D0E59B881E5C3C7F00B646F5 /* Build configuration list for PBXNativeTarget "scenekit-focusengine" */;
+			buildPhases = (
+				D0E59B751E5C3C7F00B646F5 /* Sources */,
+				D0E59B841E5C3C7F00B646F5 /* Frameworks */,
+				D0E59B851E5C3C7F00B646F5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "scenekit-focusengine";
+			productName = "spritekit-focusengine";
+			productReference = D0E59B8B1E5C3C7F00B646F5 /* scenekit-focusengine.app */;
+			productType = "com.apple.product-type.application";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -160,6 +207,9 @@
 						CreatedOnToolsVersion = 8.0;
 						DevelopmentTeam = 5GMJ5B687J;
 						ProvisioningStyle = Automatic;
+					};
+					D0E59B741E5C3C7F00B646F5 = {
+						DevelopmentTeam = 5GMJ5B687J;
 					};
 				};
 			};
@@ -177,6 +227,7 @@
 			projectRoot = "";
 			targets = (
 				BAAA980D1D7333B3002DA4B1 /* spritekit-focusengine */,
+				D0E59B741E5C3C7F00B646F5 /* scenekit-focusengine */,
 			);
 		};
 /* End PBXProject section */
@@ -188,6 +239,15 @@
 			files = (
 				BAAA981F1D7333B3002DA4B1 /* Main.storyboard in Resources */,
 				BAAA98211D7333B3002DA4B1 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D0E59B851E5C3C7F00B646F5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D0E59B901E5C3CD800B646F5 /* MainSCN.storyboard in Resources */,
+				D0E59B871E5C3C7F00B646F5 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -206,11 +266,31 @@
 				BAAA983E1D735791002DA4B1 /* PositionedMenuScene3.swift in Sources */,
 				BAAA98311D734B04002DA4B1 /* DiagonalMenuButton.swift in Sources */,
 				BAAA98361D735043002DA4B1 /* PositionedMenuScene1.swift in Sources */,
-				BAAA981C1D7333B3002DA4B1 /* GameViewController.swift in Sources */,
+				BAAA981C1D7333B3002DA4B1 /* GameViewControllerSK.swift in Sources */,
 				BAAA983C1D73561B002DA4B1 /* ShadowMenuButton.swift in Sources */,
 				BAAA98381D7352D3002DA4B1 /* PositionedMenuScene2.swift in Sources */,
 				BAAA98121D7333B3002DA4B1 /* AppDelegate.swift in Sources */,
 				BAAA98451D7374E4002DA4B1 /* SelectableMenuScene.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D0E59B751E5C3C7F00B646F5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D0E59B761E5C3C7F00B646F5 /* PositionedMenuButton.swift in Sources */,
+				D0E59B771E5C3C7F00B646F5 /* DiagonalMenuScene1.swift in Sources */,
+				D0E59B781E5C3C7F00B646F5 /* DiagonalMenuScene2.swift in Sources */,
+				D0E59B791E5C3C7F00B646F5 /* SimpleMenuButton.swift in Sources */,
+				D0E59B7A1E5C3C7F00B646F5 /* SimpleMenuScene.swift in Sources */,
+				D0E59B7B1E5C3C7F00B646F5 /* PositionedMenuScene3.swift in Sources */,
+				D0E59B7C1E5C3C7F00B646F5 /* DiagonalMenuButton.swift in Sources */,
+				D0E59B7D1E5C3C7F00B646F5 /* PositionedMenuScene1.swift in Sources */,
+				D0E59B7E1E5C3C7F00B646F5 /* GameViewControllerSCN.swift in Sources */,
+				D0E59B801E5C3C7F00B646F5 /* ShadowMenuButton.swift in Sources */,
+				D0E59B811E5C3C7F00B646F5 /* PositionedMenuScene2.swift in Sources */,
+				D0E59B821E5C3C7F00B646F5 /* AppDelegate.swift in Sources */,
+				D0E59B831E5C3C7F00B646F5 /* SelectableMenuScene.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -223,6 +303,14 @@
 				BAAA981E1D7333B3002DA4B1 /* Base */,
 			);
 			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D0E59B8D1E5C3CBC00B646F5 /* MainSCN.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D0E59B8E1E5C3CBC00B646F5 /* Base */,
+			);
+			name = MainSCN.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -347,6 +435,34 @@
 			};
 			name = Release;
 		};
+		D0E59B891E5C3C7F00B646F5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				DEVELOPMENT_TEAM = 5GMJ5B687J;
+				INFOPLIST_FILE = "spritekit-focusengine copy-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.foldedplane..spritekit-focusengine";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		D0E59B8A1E5C3C7F00B646F5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				DEVELOPMENT_TEAM = 5GMJ5B687J;
+				INFOPLIST_FILE = "spritekit-focusengine copy-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.foldedplane..spritekit-focusengine";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -366,6 +482,16 @@
 				BAAA98271D7333B3002DA4B1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D0E59B881E5C3C7F00B646F5 /* Build configuration list for PBXNativeTarget "scenekit-focusengine" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D0E59B891E5C3C7F00B646F5 /* Debug */,
+				D0E59B8A1E5C3C7F00B646F5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

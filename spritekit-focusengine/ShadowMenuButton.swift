@@ -15,13 +15,14 @@ class ShadowMenuButton: SKNode {
     
     convenience init(size: CGSize, positionedMenuButton button: PositionedMenuButton) {
         self.init()
-        let sprite = SKSpriteNode(color: .blue, size: size)
+        let sprite = SKSpriteNode(color: .init(colorLiteralRed: 0.0, green: 0.0, blue: 1.0, alpha: 0.000001), size: size)
         addChild(sprite)
         positionedMenuButton = button
     }
     
     override public var canBecomeFocused: Bool {
         get {
+            print("ShadowMenuButton.canBecomeFocused")
             return true
         }
     }

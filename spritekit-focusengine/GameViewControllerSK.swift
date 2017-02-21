@@ -8,9 +8,10 @@
 
 import UIKit
 import SpriteKit
+import SceneKit
 import GameplayKit
 
-class GameViewController: UIViewController {
+class GameViewControllerSK: UIViewController {
 
     var currentScene:SKScene?
     
@@ -19,12 +20,12 @@ class GameViewController: UIViewController {
         
         if let view = self.view as! SKView? {
             
-            let scene = SimpleMenuScene(size: view.frame.size)
+            let skscene = PositionedMenuScene3(size: view.frame.size)
             // Set the scale mode to scale to fit the window
-            scene.scaleMode = .aspectFill
-            currentScene = scene
+            skscene.scaleMode = .aspectFill
+            currentScene = skscene
             // Present the scene
-            view.presentScene(scene)
+            view.presentScene(skscene)
     
             
             view.ignoresSiblingOrder = true
@@ -39,6 +40,7 @@ class GameViewController: UIViewController {
         // Release any cached data, images, etc that aren't in use.
     }
     override var preferredFocusEnvironments: [UIFocusEnvironment] {
+        print("gameviewcontroller.preferredfocusenvironments")
         if let scene = currentScene {
             return [scene]
         } else {
